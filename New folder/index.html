@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vikhyat Midha</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+<style type="text/css">
+	
+  .hero-screen
+  {
+  	 height:600px;
+  	 width:100%;
+  	 background-color:green;
+  	 position:fixed;
+  	 z-index:1;
+  }
+  .about
+  {
+  	height:600px; 
+  	width:100%; 
+  	background-color:yellow;
+  	position:relative;
+  	
+  	z-index:3;
+  }
+  .portfolio
+  {
+  	height:600px; 
+  	width:100%; 
+  	background-color:grey;
+  	position:relative;
+  	
+  	z-index:3;
+  }
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+  .video-container video {
+    position: absolute;
+   
+    bottom: 0;
+  }
+  .hero
+  {
+  	height:520px; 
+  	width:100%; 
+  	background-color:transparent;
+  	position:relative;
+  	
+  	z-index:3;
+  	display: flex;
+  	justify-content: center;
+
+  }
+  .hero h1
+  {
+  	 margin-top:15%;
+  	 display:block;
+  	 font-family: 'Fira Sans', sans-serif;
+  	 font-weight:700;
+  	 //font-size:2em;
+  	 line-height:1em;
+  	 color:#fff;
+  }
+  
+</style>
+</head>
+
+<body>
+<div class="hero-screen">
+	<div class="video-container">
+             <div class="filter"></div>
+             <video autoplay loop muted playsinline src="./video/cameravideo4.mp4" class="fillWidth">
+          
+             </video>
+
+             <div class="poster hidden">
+                 <img src="/video/cameravideo.jpg" alt="">
+             </div>
+          </div>
+</div>
+<div class="hero">
+        
+     <h1>Vikhyat Midha</h1>
+     
+</div>
+<div class="about">
+        
+</div>
+<div class="portfolio">
+        
+</div>
+<div style="height:450px; width:100%; background-color:green; z-index:3;">
+        <p>fjbvkfjbvfkdjbvldfkjbvldskfjbvldsfkjbvldfskjbvdslfkjbvldsfkjbekjfbge;kgjbe;fkbje;jf;kjdsfvn;kdsjfvn;dknj</p>
+</div>
+</body>
+
+</html>

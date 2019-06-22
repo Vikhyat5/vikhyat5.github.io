@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vikhyat Midha</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<style type="text/css">
+ .scene
+ {
+   display:flex;
+   justify-content: center;
+   overflow:hidden;
+ }
+ .firstele
+ {
+
+ }
+
+ .secondele
+ {
+    height:400px;
+    width:100%;
+    background-color:yellow;
+    display:flex;
+    justify-content:center;
+
+ }
+
+      
+
+
+  
+</style>
+</head>
+
+<body>
+<div>
+  <div id="scene">
+  <div class="firstele" data-depth="0.5">My first Layer!</div>
+  <div class="secondele" data-depth="0.9">
+     <div style="height:200px; width:100%; background-color: red;"></div>
+     <p>eslgkjfkjf;dfskjndsf;kjbdsn;bkjndfsk;bfnd;bkn</p>
+  </div>
+</div> 
+</div>
+
+<div style="height:900px; width:100%; background-color:pink;">
+   dsb;sdnb;skjdbs;dkfjbdsn;bkjsdn;bkj n;k v; kjsdf;skjnb;sdfnb;dfskjbsnd;fkbnsd;fbknds;bjsn;bkjnb;ksjb;skbjnd;skn
+</div>
+<script type="text/javascript">
+   var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+arallaxInstance.friction(0.2, 0.2);
+</script>
+</body>
+
+</html>
