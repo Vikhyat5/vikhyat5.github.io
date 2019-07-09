@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <style>
-
 .container-fluid{
   padding:0px;
   overflow:hidden;
@@ -30,7 +29,6 @@ ul
 {
   list-style:none;
 }
-
 nav
 {
     position: fixed;
@@ -39,25 +37,23 @@ nav
     justify-content:center;
     top:60px;
 }
-
-ul
+#ulfornav
 {
        width:fit-content;
        margin:auto;
        list-style:none;
 }
-ul li
+#ulfornav li
 {
    float:left;
    margin-right:30px;
 }
-ul li a
+#ulfornav li a
 {
    color:#fff;
    text-decoration:none;
 }
-
-ul li a:hover
+#ulfornav li a:hover
 {
    text-decoration:underline;
 }
@@ -79,7 +75,6 @@ ul li a:hover
   color:#fff;
   display:flex;
   justify-content:center;
-
 }
 #about
 {
@@ -90,21 +85,24 @@ ul li a:hover
  
   height:500px;
   background-color:#e6ffb3;
-
 }
-
+#projects
+{
+	height:600px;
+	background-color:#3e4e88;
+}
 </style>
 </head>
 
 <body>
 <div class="container-fluid">
     <section id="homepage" style="padding:0px" >
-          <nav>
-                 <ul>
+          <nav id="navforhome">
+                 <ul id="ulfornav">
                    <li><a href="#home">HOME</a></li>
                    <li><a href="#about">ABOUT</a></li>
-                   <li><a href="#portfolio">PORTFOLIO</a></li>
-                   <li><a href="#connect">CONNECT</a></li>
+                   <li><a href="#projects">PORTFOLIO</a></li>
+                   <li><a href="#contact">CONNECT</a></li>
                  </ul>
              </nav>
                <div class="col-sm-12" style="height:10px;"></div>
@@ -128,6 +126,26 @@ ul li a:hover
 		  </div>
 	 </div>
   </section>
+  <section class="col-sm-12" id="projects" style="padding:0px">
+     <div class="col-sm-12" style="height:100px"></div>
+  	  <div class="row" style="padding:0px">
+  	  	  <div class="col-sm-2" style="padding:0px">
+  	  	  	  
+  	  	  	  	 <ul style="width:100%;" style="padding:0px">
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">React Native</div></li>
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">Data Analytics</div></li>
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">React JS</div></li>
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">Android</div></li>
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">Java</div></li>
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">Meteor JS</div></li>
+  	  	  	  	 	
+  	  	  	  	 	<li><div class="col-sm-12" style="height:60px; background-color:#f73859; border:1px solid #fdced6;">SketchUp 3D</div></li>
+  	  	  	  	 </ul>
+  	  	  	  
+  	  	  </div>
+  	  	  <div class="col-sm-9"></div>
+  	  </div>
+  </section>
   <section  id="contact" class="col-sm-12" style="padding:0px">
         <div class="col-sm-12" style="padding:0px; height:100px;"></div>
 		<div class="row">
@@ -136,11 +154,15 @@ ul li a:hover
 				     <li><ion-icon name="logo-github" size="large"></ion-icon></li>
 					 <li><ion-icon name="logo-linkedin" size="large"></ion-icon></li>
 					 <li><ion-icon name="logo-instagram" size="large"></ion-icon></li>
-					 <li></li>
+					 <li><ion-icon name="logo-youtube" size="large"></ion-icon></li>
 				 </ul>
 			 </div>
-			 <div class="col-sm-3"></div>
-			 <div class="col-sm-6"></div>
+			 <div class="col-sm-3">
+			 	
+			 </div>
+			 <div class="col-sm-6">
+			 	
+			 </div>
 		</div>
   </section>
 </div>
